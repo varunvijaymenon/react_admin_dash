@@ -1,0 +1,77 @@
+.card-container{
+    display: flex;
+    height: 6em;
+    flex-grow: 1;
+}
+
+.card-data-wrapper{
+    display: flex;
+}
+
+.right-side{
+    display: flex;
+    background-color: white;
+    border-top-right-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+    justify-content: space-between;
+    min-width: 19em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.left-side{
+    width: 0.25em;
+    border-top-left-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.title-data{
+    background-color: white;
+    text-align: left;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.card-title{
+    margin-bottom: 0em;
+    font-size: 0.80em;
+    font-weight: bold;
+}
+.card-black-text{
+    font-size: 1.25em;
+    font-weight: 900;
+    margin: 0em;
+    color: #595C69
+}
+
+.icon{
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    color: #DCDFEB;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.ProgressBarContainer{
+    display: flex;
+    padding-top: 1em;
+    width: 11em;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .noProgressBar{
+    display: flex;
+    flex: 1;
+} */
+
+.ProgressBar{
+    height: 0.5em;
+    width: 100%;
+    background: linear-gradient(90deg, #37B8CC 50%, #E9ECF4 50%);
+    border-radius: 0.5em;
+}

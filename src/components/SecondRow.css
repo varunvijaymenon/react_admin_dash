@@ -1,0 +1,5 @@
+.SecondRowCards{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 15;
+}

@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  display: flex;
+  background-color: #F8F9FC;
+  height: 145vh;
+}
+
+.right-container{
+  width: 100%;
+}
+
+.main-body{
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.75em;
+}

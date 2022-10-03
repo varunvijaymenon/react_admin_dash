@@ -1,0 +1,10 @@
+.top-row-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 2em;
+}
+
+.header-text{
+    height: 10px;
+}
